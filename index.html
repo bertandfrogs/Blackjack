@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script defer src="action.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="flex">
+        <h1>Blackjack</h1>
+        <!--<button onclick="getStartingCards()">Start</button>-->
+        <div class="player1">
+            <div class="playerCards">
+                <div id="p1Score">Score: 0</div>
+            </div>
+            <button onclick="getAnotherCard(this)">Hit</button>
+        </div>
+        <div class="player2">
+            <div class="playerCards">
+                <div id="p2Score">Score: 0</div>
+            </div>
+            <button onclick="getAnotherCard(this)">Hit</button>
+        </div>
+    </div>
+</body>
+

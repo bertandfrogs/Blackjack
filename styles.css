@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    padding: 10px;
+}
+
+.player1, .player2{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
